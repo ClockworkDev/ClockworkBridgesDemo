@@ -7,6 +7,6 @@ app.post('/webbridge', function (req, res) {
     res.send('Hello World!')
 })
 
-app.listen(process.env.PORT || 80, function () {
+app.listen(process.env.PORT || 3000, function () {
 
 })
