@@ -1,0 +1,24 @@
+<html>
+
+<head>
+</head>
+
+<body>
+    This is a demo of the UWP Clockwork bridge!
+    <form action="http://cwredmond.westeurope.cloudapp.azure.com/build" method="post" enctype="multipart/form-data">
+        Select a .cw file:<input type="file" name="package">
+        <input type="submit" value="Submit" />
+
+    </form>
+    <p>
+        Once you click submit, wait a minute while the .appx package is being generated in the server :)
+    </p>
+    <p>
+        To try the app, first you will need to install <a href="UWPbridge.cer">this certificate</a>. Download it, right click it and select "install certificate". A wizard will appear, where you have to select "Local machine", click next, then select "Place all certificates in the following store", click browse and select "Trusted People". Click next and finish.
+    </p>
+    <p>
+        Finally, add ".appx" to the name of the downloaded file, and double click it to install it.
+    </p>
+</body> 
+
+</html>
